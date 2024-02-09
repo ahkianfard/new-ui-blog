@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-active {
+        @apply block px-2 py-3 text-center text-white bg-orange-500 rounded md:p-0 md:bg-transparent md:text-orange-600 md:dark:text-orange-500 dark:bg-orange-600 md:dark:bg-transparent;
+    }
+
+    .nav-deactive {
+        @apply block px-2 py-3 text-center text-gray-900 rounded md:p-0 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent;
+    }
+}
+
+@font-face {
+    font-family: vazir;
+    src: url("fonts/Vazir.ttf");
+}
+
+@font-face {
+    font-family: iransans;
+    src: url("fonts/IRANSans.woff2");
+}
